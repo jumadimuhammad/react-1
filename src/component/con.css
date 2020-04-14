@@ -1,0 +1,18 @@
+.row-1 img{
+    width: 50px;
+    height: 50px;
+    color: yellowgreen;
+    animation: 2s;
+}
+.row-1 img:hover{
+    transform: scale(1.2,1.2);
+}
+.row-1 h5{
+    color: #0074e1;
+    font-family: 'Pacifico', cursive;
+    font-size: 34px;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0074e1;
+}

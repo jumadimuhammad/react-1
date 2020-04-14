@@ -1,0 +1,134 @@
+%flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.product {
+    padding: 50px;
+    background-color: rgb(243, 241, 236);
+
+    h2 {
+        padding: 20px;
+    }
+
+    a {
+        color: black;
+    }
+}
+.prod {
+    padding: 20px;
+
+    img {
+        width: 100%;
+    }
+}
+.wed {
+    @extend %flex;
+
+}
+.row-3 {
+    padding: 0;
+    margin: 0;
+}
+.row {
+    img {
+        width: 100%;
+    }
+}
+.white {
+    padding: 50px 21px 50px 50px;
+    background-color: rgb(117, 57, 57);
+}
+.flo {
+    @extend %flex;
+}
+.prod-1 {
+    img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+.row-5 {
+    padding: 0;
+    margin: 0;
+
+    a {
+        color: white;
+    }
+}
+.row-news {
+    padding: 100px 0;
+}
+.row-6 {
+    padding: 0;
+
+    iframe {
+        width: 100%;
+    }
+}
+.row-foot {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    ul {
+        li {
+            list-style-type: none;
+
+            a {
+                color: black;
+            }
+        }
+    }
+}
+footer {
+    padding: 30px;
+    justify-content: center;
+}
+.sosmed {
+    @extend %flex;
+    height: 100%;
+    background-color: rgb(23, 34, 34);
+    color: rgb(179, 241, 8);
+
+    a {
+        color: rgb(179, 241, 8);
+    }
+}
+.not {
+    @extend %flex;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+
+@media(max-width:990px) {
+    .baby {
+        margin-top: 50px;
+    }
+
+    .sosmed {
+        display: flex;
+        height: 70px;
+        flex-direction: row;
+
+        a {
+            margin-right: 10px;
+        }
+    }
+
+    .white {
+        padding: 50px 50px 50px 50px;
+    }
+}
