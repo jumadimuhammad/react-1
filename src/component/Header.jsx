@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 import "./head.css";
-import p1 from "./images/p1.jpg";
+import p1 from "./images/profile.jpeg";
 import fb from "./images/fb.svg";
 import ins from "./images/ins.svg";
 import em from "./images/em.svg";
@@ -14,30 +14,31 @@ class Header extends Component {
     render() {
         return (
             <div className="container-fluid header">
-                <div className="row justify-content-center py-4">
-                    <div className="col-sm-8 py-4">
-                        <div class="card text-center crd mb-5">
+                <div className="row justify-content-center">
+                    <div className="col-sm-8 py-3">
+                        <div class="card text-center crd mb-3 mt-5">
                             <div class="card-body card-1">
                                 <div className="row">
                                     <div className="col-sm-4 p-5">
                                         <img
                                             src={p1}
                                             alt="img"
-                                            className="img-thumbnail my-5"
+                                            className="img-fluid my-5"
                                         />
                                     </div>
-                                    <div className="col-sm-8 py-5">
+                                    <div className="col-sm-8 py-4">
                                         <div className="py-5 text px-2">
                                             <h3>Hi! I'm jumadi</h3>
-                                            <p className="py-3">
-                                            I'm a freelance developer, I continue to study and learn to get what I want. Now, to develop what i want, I'm following the bootcamp on impact byte. I have some expertise in programming, that is application development, website development, application design, and web design.
+                                            <p className="my-4">
+                                            I'm a freelance developer, i have some expertise in programming, that is application development, website development, application design, and web design.
                                             </p>
-                                            <a href="www.youtube.com"><button className="btn">
-                                                Subscribe
+                                            <a href="# /"><button className="btn">
+                                                Resume
                                             </button></a>
                                         </div>
                                     </div>
                                 </div>
+                                    <p className="skill">nodeJs | mySql | react | sass | html | css | bootstrap | vanillaJs | figma | git | github</p>
                             </div>
                             <div class="card-footer p-4 foot bg-warning">
                                 <a href="www.facebook.com">

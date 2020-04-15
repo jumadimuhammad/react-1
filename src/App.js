@@ -2,15 +2,15 @@
 
 import React, { Fragment } from "react";
 import Header from "./component/Header";
-import Content from "./component/Content";
-import Footer from "./component/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import Content from "./component/Content";
+// import Footer from "./component/Footer";
+// import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
     return (
         <Fragment>
             <Header />
-            <Content />
-            <Footer />
+            {/* <Content />
+            <Footer /> */}
         </Fragment>
     );
 }

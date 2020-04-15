@@ -1,40 +1,44 @@
 /** @format */
 
-.header{
-    background-color: rgb(255, 255, 255);
+.header {
+    background-color:  #000000;
 }
 .card-1 {
-    background-color: #0074e1;
+    background-color:  #1d1e22;
     color: #faed26;
-    min-height: 400px;
+    min-height: 300px;
 }
-
-.card-1 h3{
+.card-1 h3 {
     color: #faed26;
     font-size: 42px;
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
 }
-.card-1 p{
+.card-1 p {
     color: #fddea7;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: "Rajdhani", sans-serif;
+}
+.card-1 .skill {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 14px;
 }
 .card-1 img {
     border-radius: 50%;
     border: 3px solid #faed26;
 }
-.crd{
+/* .crd {
     box-shadow: 0 0 3px 1px #758eb7;
-}
+} */
 .text {
     border-left: 2px solid #fddea7;
 }
-.text button{
+.text button {
     background-color: #faed26;
-    color: #0074e1;
+    color: #000000;
 }
-.text button:hover{
+.text button:hover {
     background-color: #fddea7;
-    color: #0074e1;
+    color: #000000;
 }
 .foot img {
     width: 25px;
@@ -42,7 +46,7 @@
     margin: 0 20px;
 }
 .foot img:hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.2, 1.2);
     color: white;
 }
 .foot a {
